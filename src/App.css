@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Utility Classes */
+
+/* .btn{
+    @apply py-2 px-4 font-semibold 
+}
+
+.btn-solid{ 
+    @apply btn text-white bg-black hover:bg-[#00000080]
+}
+
+.btn-outine-white{
+    @apply btn text-white border border-[#fff] hover:bg-[#949494]
+}
+
+.btn-outine-accent{
+    @apply btn text-[#216F66] border border-[#216F66] hover:bg-[#D7FFFC]
+} */
+
+.btn-solid{
+    padding: 8px 16px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}
+
+.btn-solid:hover{
+    background-color: #00000080;
+}
+
+.btn-outline-white{
+    padding: 8px 16px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-outline-white:hover{
+    background-color: #949494;
+}
+
+.btn-outline-accent{
+    padding: 8px 16px;
+    font-weight: 600;
+    color: #216F66;
+    border: 1px solid #216F66;
+}
+
+.btn-outline-accent:hover{
+    background-color: #D7FFFC;
+}
+
+/* Navbar */
+
+@media (max-width: 1023px){
+    .desktop-nav{
+        display: none;
+    }
+
+}
+
+/* Home Page */
+
+.nav__list .nav__link{
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav__list .nav__link::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #2E2E2E;
+    transition: width 0.4s ease-out;
+}
+
+.nav__list .nav__link:hover.nav__link::after{
+    width: 25px;
+}
+
+.containerStyle{
+    @apply px-10 lg:px-40
+} 
+
+.pre-header{
+    @apply font-bold text-[12px] lg:text-sm
+}
+
+.header{
+    @apply font-bold text-[29px] lg:text-[45px]
+}
+
+.sec-header{
+    @apply font-bold text-[26px]
+}
+
+.domain-list{
+    @apply space-y-4
+}
+
+.domain-list svg{
+    @apply mr-4
+}
+
+.domain-list h4{
+    display: flex;
+    align-items: center;
+    color: #2E2E2E;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 30ch;
+}
+
+/* background images */
+.bg-hero{
+    background-image: url('./assets/img/hero-sm.jpg')
+}
+.bg-career{
+    background-image: url('./assets/img/career-sm.jpg')
+}
+.bg-automotive{
+    background-image: url('./assets/img/automotive-sm.jpg')
+}
+.bg-education{
+    background-image: url('./assets/img/education-sm.jpg')
+}
+.bg-energy{
+    background-image: url('./assets/img/energy-sm.jpg')
+}
+.bg-financial-services{
+    background-image: url('./assets/img/financial-services-sm.jpg')
+}
+.bg-health-care{
+    background-image: url('./assets/img/health-care-sm.jpg')
+}
+.bg-industrial-goods{
+    background-image: url('./assets/img/industrial-goods-sm.jpg')
+}
+.bg-insurance{
+    background-image: url('./assets/img/insurance-sm.jpg')
+}
+.bg-retail{
+    background-image: url('./assets/img/retail-sm.jpg')
+}
+.bg-transportation{
+    background-image: url('./assets/img/transportation-sm.jpg')
+}
+
+@media (min-width: 1024px){
+    .bg-hero{
+        background-image: url('./assets/img/hero-lg.jpg')
+    }
+    .bg-career{
+        background-image: url('./assets/img/career-lg.jpg')
+    }
+    .bg-automotive{
+        background-image: url('./assets/img/automotive-lg.jpg')
+    }
+    .bg-education{
+        background-image: url('./assets/img/education-lg.jpg')
+    }
+    .bg-energy{
+        background-image: url('./assets/img/energy-lg.jpg')
+    }
+    .bg-financial-services{
+        background-image: url('./assets/img/financial-services-lg.jpg')
+    }
+    .bg-health-care{
+        background-image: url('./assets/img/health-care-lg.jpg')
+    }
+    .bg-industrial-goods{
+        background-image: url('./assets/img/industrial-goods-lg.jpg')
+    }
+    .bg-insurance{
+        background-image: url('./assets/img/insurance-lg.jpg')
+    }
+    .bg-retail{
+        background-image: url('./assets/img/retail-lg.jpg')
+    }
+    .bg-transportation{
+        background-image: url('./assets/img/transportation-lg.jpg')
+    }
+}
+
