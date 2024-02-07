@@ -51,7 +51,7 @@ export default function Navbar(){
                 
             {/* Sidebar */}
             <div
-                className={`${!toggle ? "hidden" : "flex"} fixed top-[74px] right-0 w-full h-screen  transition duration-300 ease-in-out bg-gray-50`}
+                className={`${!toggle ? "hidden" : "flex"} z-20 fixed top-[74px] right-0 w-full h-screen  transition duration-300 ease-in-out bg-gray-50`}
             >
                 <ul className="py-10 px-5 items-start space-y-2">
                 <li>
