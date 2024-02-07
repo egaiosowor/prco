@@ -10,13 +10,12 @@ export default function Job(){
 
     const [job, setJob] = useState({})
 
-    const jobs = [
+    const jobsArr = [
         {
             id: 1,
             title: 'Data Entry Analyst',
             location: 'Remote',
-            pay: '$16 an hour',
-            posted: '2 days ago',
+            pay: '$38.50 an hour',
             employment: 'Full-time',
             hiring: "multiple candidates",
             responsibilities: [
@@ -39,7 +38,6 @@ export default function Job(){
             title: 'Virtual Data Entry Clerk',
             location: 'Remote',
             pay: '$30 - $75 an hour',
-            posted: '4 hours ago',
             employment: 'Full-time',
             hiring: "multiple candidates",
             responsibilities: [
@@ -59,8 +57,7 @@ export default function Job(){
             id: 3,
             title: 'Data Entry Operator ',
             location: 'Remote',
-            pay: '$15 an hour',
-            posted: '2 days ago',
+            pay: '$40 an hour',
             employment: 'Full-time',
             hiring: "multiple candidates",
             responsibilities: [
@@ -81,7 +78,6 @@ export default function Job(){
             title: 'Data Entry Analyst',
             location: 'Remote',
             pay: '$30 to $40 an hour',
-            posted: '2 days ago',
             employment: 'Contract',
             hiring: "multiple candidates",
             responsibilities: [
@@ -104,7 +100,6 @@ export default function Job(){
             title: 'Social Media Virtual Assistant',
             location: 'Remote',
             pay: '$40 an hour',
-            posted: '2 days ago',
             employment: 'Full-time',
             hiring: "multiple candidates",
             responsibilities: [
@@ -135,7 +130,6 @@ export default function Job(){
             title: 'Social Media Manager',
             location: 'Remote',
             pay: '$45 an hour',
-            posted: '2 days ago',
             employment: 'Contract',
             hiring: "1 candidate",
             responsibilities: [
@@ -157,7 +151,7 @@ export default function Job(){
 
     useEffect(() => {
         const getJob = () => {
-            const job = jobs.find((job) => job.id === parseInt(id))
+            const job = jobsArr.find((job) => job.id === parseInt(id))
             setJob(job)
         }
         getJob()

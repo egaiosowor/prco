@@ -35,7 +35,6 @@ export default function JobList({jobs, setJob}){
                             <p className='py-[2px] px-2 text-[#616161] text-sm font-semibold bg-[#eeeeee]' >{job.employment}</p>
                         </div>
                     </div>
-                    <p className='text-sm text-[#616161]' >Posted {job.posted}</p>
                 </article>
             ))
         }
