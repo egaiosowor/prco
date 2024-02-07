@@ -14,7 +14,7 @@ export default function Expert(){
                 <div className='py-12 px-10 lg:px-16 lg:pt-20 space-y-10 text-white bg-[#0A3833] basis-3/5' >
                     <div className='space-y-2' >
                         <h2 className='header max-w-[15ch]' >PRCO is here to help you</h2>
-                        <p className='max-w-[45ch]' >Purus in massa tempor nec. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Faucibus ornare suspendisse sed nisi lacus sed viverra. Diam in arcu cursus euismod quis viverra nibh cras pulvinar.</p>
+                        <p className='max-w-[45ch]' >Our experts bring deep industry and functional expertise and a range of perspectives that question the status quo and spark change.</p>
                     </div>
                     <div>
                         <a href="mailto:info@example.com?subject=Consultation%20Booking&body=Hello,%20I%20would%20love%20to%20book%20a%20consultation%20session." className='btn-outline-white !hover:bg-[#949494]' >Talk to an Expert</a>
@@ -45,7 +45,7 @@ export default function Expert(){
 
                                 Talent Acquisition and Recruiting</h4>
                         </div>
-                    <p className='max-w-[55ch] text-[#5E5E5E]' >Et malesuada fames ac turpis egestas maecenas pharetra. Placerat duis ultricies lacus sed.</p>
+                    <p className='max-w-[55ch] text-[#5E5E5E]' >Our diverse, global teams are passionate about unlocking potential and making change happen, delivering integrated solutions through leading-edge management consulting, technology and design, and corporate and digital ventures.</p>
                     <a href='mailto:info@example.com?subject=Consultation%20Booking&body=Hello,%20I%20would%20love%20to%20book%20a%20consultation%20session.' className='flex items-center font-bold text-[14px] text-[#2E2E2E]' >
                         LEARN SERVICES DETAILS
                         <svg className='ml-1' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +64,7 @@ export default function Expert(){
                 <div className='space-y-6' >
                     <div className='space-y-2' >     
                         <h2 className='sec-header max-w-[30ch] lg:mx-0 text-[#2E2E2E]' >Highlighting key services and expertise</h2>
-                        <p className='max-w-[50ch] text-[#5E5E5E]' >Sollicitudin aliquam ultrices sagittis orci a scelerisque. Tortor id aliquet lectus proin nibh nisl. Amet mattis vulputate enim nulla aliquet.</p>
+                        <p className='max-w-[50ch] text-[#5E5E5E]' >We work closely with clients to embrace a transformational approach aimed at benefiting all stakeholders—empowering organizations to grow, build sustainable competitive advantage, and drive positive societal impact.</p>
                     </div>
                     <div>
                         <a href="mailto:info@example.com?subject=Consultation%20Booking&body=Hello,%20I%20would%20love%20to%20book%20a%20consultation%20session." className='btn-outline-accent' >GET STARTED</a>
