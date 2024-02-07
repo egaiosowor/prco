@@ -6,7 +6,7 @@ export default function About(){
                 <p className='max-w-[50ch] mx-auto lg:mx-0 text-[#5E5E5E]' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             </div>
             <div>
-                <a href="/" className='btn-outline-accent' >ABOUT US</a>
+                <a href="/about" className='btn-outline-accent' >ABOUT US</a>
             </div>
         </section>
     )

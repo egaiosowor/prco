@@ -73,7 +73,7 @@ export default function Navbar(){
                     </a>
                 </li>
                 <li>
-                    <a href="/career" className={`block py-2 pl-3 pr-4rounded md:p-0`}
+                    <a href="/careers" className={`block py-2 pl-3 pr-4rounded md:p-0`}
                     onClick={handleToggle}>
                     Career
                     </a>
